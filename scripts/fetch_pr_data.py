@@ -6,6 +6,7 @@ import pandas as pd
 from datetime import datetime
 from tqdm import tqdm
 from dotenv import load_dotenv
+from requests.exceptions import ChunkedEncodingError
 
 # --- LOAD CONFIGURATION ---
 load_dotenv()
@@ -19,23 +20,30 @@ END_DATE = datetime(2023, 12, 31)
 PER_PAGE = 100
 
 # --- HELPERS ---
+
+
 def fetch_json(url, retries=3):
     for attempt in range(retries):
-        response = requests.get(url, headers=HEADERS)
-        if response.status_code == 403:
-            reset_time = int(response.headers.get("X-RateLimit-Reset", time.time() + 60))
-            sleep_time = max(reset_time - int(time.time()), 60)
-            print(f"Rate limit hit. Sleeping for {sleep_time / 60:.2f} minutes...")
-            time.sleep(sleep_time)
-        elif response.status_code in (500, 502, 503):
-            print(f"Server error {response.status_code} on {url}. Retry {attempt + 1}/{retries}...")
-            time.sleep(10 * (attempt + 1))  # backoff
-        elif response.status_code == 200:
-            return response.json()
-        else:
-            print(f"Unexpected error {response.status_code} on {url}")
-            break
+        try:
+            response = requests.get(url, headers=HEADERS)
+            if response.status_code == 403:
+                reset_time = int(response.headers.get("X-RateLimit-Reset", time.time() + 60))
+                sleep_time = max(reset_time - int(time.time()), 60)
+                print(f"Rate limit hit. Sleeping for {sleep_time / 60:.2f} minutes...")
+                time.sleep(sleep_time)
+            elif response.status_code in (500, 502, 503):
+                print(f"Server error {response.status_code} on {url}. Retry {attempt + 1}/{retries}...")
+                time.sleep(10 * (attempt + 1))  # exponential backoff
+            elif response.status_code == 200:
+                return response.json()
+            else:
+                print(f"Unexpected error {response.status_code} on {url}")
+                break
+        except ChunkedEncodingError as e:
+            print(f"ChunkedEncodingError on {url}. Retry {attempt + 1}/{retries}...")
+            time.sleep(10 * (attempt + 1))  # backoff before retry
     return None
+
 
 def extract_users(items):
     return list({item.get("user", {}).get("login") for item in items if item.get("user")})
@@ -114,7 +122,6 @@ def save_results(prs, data_dir, repo):
 # --- MAIN ---
 if __name__ == "__main__":
     repos = [
-        "scikit-learn/scikit-learn",
         "kubernetes/kubernetes"
     ]
 
