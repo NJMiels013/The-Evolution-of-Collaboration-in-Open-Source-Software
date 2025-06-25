@@ -1,9 +1,9 @@
 username,mention_count,roles,username_lower,is_known_bot,only_comments,high_volume,is_behavioral_bot,suspected_bot
 goldsborough,717,"['comment_authors', 'review_comment_authors', 'author']",goldsborough,False,False,True,True,True
 ezyang,13173,"['comment_authors', 'review_comment_authors', 'author']",ezyang,False,False,True,True,True
-soumith,1190,"['comment_authors', 'author', 'review_comment_authors']",soumith,False,False,True,True,True
+soumith,1190,"['author', 'comment_authors', 'review_comment_authors']",soumith,False,False,True,True,True
 alicanb,48,"['comment_authors', 'review_comment_authors', 'author']",alicanb,False,False,False,False,False
-apaszke,1604,"['comment_authors', 'author', 'review_comment_authors']",apaszke,False,False,True,True,True
+apaszke,1604,"['author', 'comment_authors', 'review_comment_authors']",apaszke,False,False,True,True,True
 Gosicfly,3,"['comment_authors', 'author']",gosicfly,False,False,False,False,False
 zhouzq-thu,3,"['comment_authors', 'author']",zhouzq-thu,False,False,False,False,False
 kashif,12,"['comment_authors', 'review_comment_authors', 'author']",kashif,False,False,False,False,False
@@ -13,7 +13,7 @@ eece-23,1,['comment_authors'],eece-23,False,True,False,True,True
 hkchengrex,1,['comment_authors'],hkchengrex,False,True,False,True,True
 bhack,13,"['comment_authors', 'review_comment_authors']",bhack,False,True,False,True,True
 loshchil,4,"['comment_authors', 'review_comment_authors']",loshchil,False,True,False,True,True
-weiyangfb,193,"['comment_authors', 'author', 'review_comment_authors']",weiyangfb,False,False,False,False,False
+weiyangfb,193,"['author', 'comment_authors', 'review_comment_authors']",weiyangfb,False,False,False,False,False
 jpeg729,2,"['comment_authors', 'review_comment_authors']",jpeg729,False,True,False,True,True
 HaraldKorneliussen,1,['comment_authors'],haraldkorneliussen,False,True,False,True,True
 vishwakftw,663,"['author', 'comment_authors', 'review_comment_authors']",vishwakftw,False,False,True,True,True
@@ -45,10 +45,10 @@ N-Dekker,1,['comment_authors'],n-dekker,False,True,False,True,True
 jlquinn,2,"['author', 'review_comment_authors']",jlquinn,False,False,False,False,False
 elanmart,19,"['comment_authors', 'review_comment_authors', 'author']",elanmart,False,False,False,False,False
 Stonesjtu,49,"['comment_authors', 'review_comment_authors', 'author']",stonesjtu,False,False,False,False,False
-vadimkantorov,480,"['comment_authors', 'author', 'review_comment_authors']",vadimkantorov,False,False,False,False,False
+vadimkantorov,480,"['author', 'comment_authors', 'review_comment_authors']",vadimkantorov,False,False,False,False,False
 lantiga,39,"['comment_authors', 'review_comment_authors', 'author']",lantiga,False,False,False,False,False
 JustinShenk,1,['author'],justinshenk,False,False,False,False,False
-fmassa,382,"['comment_authors', 'author', 'review_comment_authors']",fmassa,False,False,False,False,False
+fmassa,382,"['author', 'comment_authors', 'review_comment_authors']",fmassa,False,False,False,False,False
 deepbrain,1,['comment_authors'],deepbrain,False,True,False,True,True
 ppwwyyxx,127,"['comment_authors', 'review_comment_authors', 'author']",ppwwyyxx,False,False,False,False,False
 keishinkickback,2,"['review_comment_authors', 'author']",keishinkickback,False,False,False,False,False
@@ -155,7 +155,7 @@ nouiz,1,['comment_authors'],nouiz,False,True,False,True,True
 btgraham,2,['author'],btgraham,False,False,False,False,False
 juniorrojas,1,['author'],juniorrojas,False,False,False,False,False
 davidbau,2,"['comment_authors', 'author']",davidbau,False,False,False,False,False
-acgtyrant,5,"['comment_authors', 'author', 'review_comment_authors']",acgtyrant,False,False,False,False,False
+acgtyrant,5,"['author', 'comment_authors', 'review_comment_authors']",acgtyrant,False,False,False,False,False
 asoltysik,2,"['comment_authors', 'author']",asoltysik,False,False,False,False,False
 paddyhoran,1,['comment_authors'],paddyhoran,False,True,False,True,True
 geordi,1,['author'],geordi,False,False,False,False,False
@@ -169,7 +169,7 @@ rdp,1,['author'],rdp,False,False,False,False,False
 yinghai,519,"['comment_authors', 'review_comment_authors', 'author']",yinghai,False,False,True,True,True
 cattaneod,2,"['comment_authors', 'author']",cattaneod,False,False,False,False,False
 ashnair1,1,['comment_authors'],ashnair1,False,True,False,True,True
-makslevental,108,"['comment_authors', 'author', 'review_comment_authors']",makslevental,False,False,False,False,False
+makslevental,108,"['author', 'comment_authors', 'review_comment_authors']",makslevental,False,False,False,False,False
 f0k,20,"['comment_authors', 'review_comment_authors', 'author']",f0k,False,False,False,False,False
 xunhuang1995,1,['comment_authors'],xunhuang1995,False,True,False,True,True
 martinraison,3,"['comment_authors', 'review_comment_authors', 'author']",martinraison,False,False,False,False,False
@@ -224,7 +224,7 @@ rasbt,5,"['comment_authors', 'author']",rasbt,False,False,False,False,False
 KaimingHe,1,['comment_authors'],kaiminghe,False,True,False,True,True
 fehiepsi,56,"['comment_authors', 'review_comment_authors', 'author']",fehiepsi,False,False,False,False,False
 topiaruss,2,"['comment_authors', 'author']",topiaruss,False,False,False,False,False
-Yangqing,201,"['comment_authors', 'author', 'review_comment_authors']",yangqing,False,False,False,False,False
+Yangqing,201,"['author', 'comment_authors', 'review_comment_authors']",yangqing,False,False,False,False,False
 smessmer,1376,"['comment_authors', 'review_comment_authors', 'author']",smessmer,False,False,True,True,True
 Jiaming-Liu,3,"['comment_authors', 'author']",jiaming-liu,False,False,False,False,False
 codinfox,1,['comment_authors'],codinfox,False,True,False,True,True
@@ -237,7 +237,7 @@ mingfeima,463,"['comment_authors', 'review_comment_authors', 'author']",mingfeim
 bes-dev,6,"['comment_authors', 'author']",bes-dev,False,False,False,False,False
 redwrasse,10,"['comment_authors', 'author']",redwrasse,False,False,False,False,False
 mseitzer,1,['author'],mseitzer,False,False,False,False,False
-Maratyszcza,110,"['comment_authors', 'author', 'review_comment_authors']",maratyszcza,False,False,False,False,False
+Maratyszcza,110,"['author', 'comment_authors', 'review_comment_authors']",maratyszcza,False,False,False,False,False
 AutuanLiu,4,"['comment_authors', 'review_comment_authors', 'author']",autuanliu,False,False,False,False,False
 danieltudosiu,1,['comment_authors'],danieltudosiu,False,True,False,True,True
 AlexMRuch,1,['comment_authors'],alexmruch,False,True,False,True,True
@@ -246,7 +246,7 @@ pjh5,334,"['comment_authors', 'review_comment_authors', 'author']",pjh5,False,Fa
 orionr,368,"['comment_authors', 'review_comment_authors', 'author']",orionr,False,False,False,False,False
 tonybeltramelli,3,"['comment_authors', 'review_comment_authors', 'author']",tonybeltramelli,False,False,False,False,False
 mdschatz,17,"['comment_authors', 'review_comment_authors', 'author']",mdschatz,False,False,False,False,False
-salexspb,62,"['comment_authors', 'author', 'review_comment_authors']",salexspb,False,False,False,False,False
+salexspb,62,"['author', 'comment_authors', 'review_comment_authors']",salexspb,False,False,False,False,False
 enosair,9,"['comment_authors', 'author']",enosair,False,False,False,False,False
 supakjk,1,['author'],supakjk,False,False,False,False,False
 hlu1,181,"['comment_authors', 'review_comment_authors', 'author']",hlu1,False,False,False,False,False
@@ -258,7 +258,7 @@ zeryx,2,"['comment_authors', 'author']",zeryx,False,False,False,False,False
 AtheMathmo,3,"['comment_authors', 'review_comment_authors', 'author']",athemathmo,False,False,False,False,False
 dr-ci[bot],9388,['comment_authors'],dr-ci[bot],False,True,True,True,True
 iramazanli,208,"['comment_authors', 'review_comment_authors', 'author']",iramazanli,False,False,False,False,False
-jamestwebber,13,"['comment_authors', 'author', 'review_comment_authors']",jamestwebber,False,False,False,False,False
+jamestwebber,13,"['author', 'comment_authors', 'review_comment_authors']",jamestwebber,False,False,False,False,False
 ishaqadenali,2,"['author', 'review_comment_authors']",ishaqadenali,False,False,False,False,False
 Swetko,11,"['comment_authors', 'review_comment_authors', 'author']",swetko,False,False,False,False,False
 xiaomengy,314,"['comment_authors', 'review_comment_authors', 'author']",xiaomengy,False,False,False,False,False
@@ -309,7 +309,7 @@ sancha,2,"['comment_authors', 'author']",sancha,False,False,False,False,False
 chintak,4,"['comment_authors', 'review_comment_authors', 'author']",chintak,False,False,False,False,False
 pooyadavoodi,9,"['comment_authors', 'author']",pooyadavoodi,False,False,False,False,False
 gujinghui,199,"['comment_authors', 'review_comment_authors', 'author']",gujinghui,False,False,False,False,False
-jgong5,701,"['comment_authors', 'author', 'review_comment_authors']",jgong5,False,False,True,True,True
+jgong5,701,"['author', 'comment_authors', 'review_comment_authors']",jgong5,False,False,True,True,True
 AceCoooool,1,['author'],acecoooool,False,False,False,False,False
 mrshu,1,['author'],mrshu,False,False,False,False,False
 shibatch,3,['comment_authors'],shibatch,False,True,False,True,True
@@ -343,12 +343,12 @@ dbermond,2,['author'],dbermond,False,False,False,False,False
 Mactarvish,1,['author'],mactarvish,False,False,False,False,False
 andfoy,27,"['comment_authors', 'review_comment_authors', 'author']",andfoy,False,False,False,False,False
 xush6528,342,"['comment_authors', 'review_comment_authors', 'author']",xush6528,False,False,False,False,False
-aazzolini,52,"['comment_authors', 'author', 'review_comment_authors']",aazzolini,False,False,False,False,False
+aazzolini,52,"['author', 'comment_authors', 'review_comment_authors']",aazzolini,False,False,False,False,False
 Russzheng,3,"['comment_authors', 'review_comment_authors', 'author']",russzheng,False,False,False,False,False
 superbobry,1,['author'],superbobry,False,False,False,False,False
 jfan-uber,1,['author'],jfan-uber,False,False,False,False,False
 MahdiNazemi,1,['author'],mahdinazemi,False,False,False,False,False
-mfuntowicz,10,"['comment_authors', 'author', 'review_comment_authors']",mfuntowicz,False,False,False,False,False
+mfuntowicz,10,"['author', 'comment_authors', 'review_comment_authors']",mfuntowicz,False,False,False,False,False
 kimdwkimdw,5,"['comment_authors', 'review_comment_authors', 'author']",kimdwkimdw,False,False,False,False,False
 facaiy,2,"['comment_authors', 'author']",facaiy,False,False,False,False,False
 acheshkov,1,['author'],acheshkov,False,False,False,False,False
@@ -455,7 +455,7 @@ ilia-cher,512,"['comment_authors', 'review_comment_authors', 'author']",ilia-che
 xw285cornell,181,"['comment_authors', 'review_comment_authors', 'author']",xw285cornell,False,False,False,False,False
 kittipatv,22,"['comment_authors', 'review_comment_authors', 'author']",kittipatv,False,False,False,False,False
 samson-wang,1,['comment_authors'],samson-wang,False,True,False,True,True
-ClementPinard,5,"['comment_authors', 'author', 'review_comment_authors']",clementpinard,False,False,False,False,False
+ClementPinard,5,"['author', 'comment_authors', 'review_comment_authors']",clementpinard,False,False,False,False,False
 wuhuikx,35,"['comment_authors', 'review_comment_authors', 'author']",wuhuikx,False,False,False,False,False
 yueyericardo,18,"['comment_authors', 'review_comment_authors', 'author']",yueyericardo,False,False,False,False,False
 sf-wind,28,"['comment_authors', 'review_comment_authors', 'author']",sf-wind,False,False,False,False,False
@@ -465,7 +465,7 @@ Oscarlight,6,"['comment_authors', 'author']",oscarlight,False,False,False,False,
 jerryqypan,2,['author'],jerryqypan,False,False,False,False,False
 guotong1988,1,['comment_authors'],guotong1988,False,True,False,True,True
 MaximeBoucher,1,['author'],maximeboucher,False,False,False,False,False
-wesolwsk,16,"['comment_authors', 'author', 'review_comment_authors']",wesolwsk,False,False,False,False,False
+wesolwsk,16,"['author', 'comment_authors', 'review_comment_authors']",wesolwsk,False,False,False,False,False
 praveen-palanisamy,2,"['comment_authors', 'author']",praveen-palanisamy,False,False,False,False,False
 rainwoodman,2,"['comment_authors', 'author']",rainwoodman,False,False,False,False,False
 wenwei202,12,"['comment_authors', 'author']",wenwei202,False,False,False,False,False
@@ -478,7 +478,7 @@ Ac2zoom,5,"['comment_authors', 'review_comment_authors', 'author']",ac2zoom,Fals
 jongwook,2,"['comment_authors', 'author']",jongwook,False,False,False,False,False
 eellison,3134,"['comment_authors', 'review_comment_authors', 'author']",eellison,False,False,True,True,True
 sri123098,1,['review_comment_authors'],sri123098,False,True,False,True,True
-vincentqb,210,"['comment_authors', 'author', 'review_comment_authors']",vincentqb,False,False,False,False,False
+vincentqb,210,"['author', 'comment_authors', 'review_comment_authors']",vincentqb,False,False,False,False,False
 pengyaoc,3,"['comment_authors', 'author']",pengyaoc,False,False,False,False,False
 ptrblck,156,"['comment_authors', 'review_comment_authors', 'author']",ptrblck,False,False,False,False,False
 sproshev,1,['comment_authors'],sproshev,False,True,False,True,True
@@ -549,7 +549,7 @@ kit1980,1233,"['comment_authors', 'review_comment_authors', 'author']",kit1980,F
 resistor,217,"['comment_authors', 'review_comment_authors', 'author']",resistor,False,False,False,False,False
 normster,4,"['comment_authors', 'author']",normster,False,False,False,False,False
 vmirly,2,['author'],vmirly,False,False,False,False,False
-jithunnair-amd,400,"['comment_authors', 'author', 'review_comment_authors']",jithunnair-amd,False,False,False,False,False
+jithunnair-amd,400,"['author', 'comment_authors', 'review_comment_authors']",jithunnair-amd,False,False,False,False,False
 idansc,1,['author'],idansc,False,False,False,False,False
 ksemianov,2,"['comment_authors', 'author']",ksemianov,False,False,False,False,False
 weihua04,1,['comment_authors'],weihua04,False,True,False,True,True
@@ -607,7 +607,7 @@ newstzpz,15,"['comment_authors', 'review_comment_authors', 'author']",newstzpz,F
 shenyunhang,1,['author'],shenyunhang,False,False,False,False,False
 striajan,4,"['comment_authors', 'author']",striajan,False,False,False,False,False
 kirteshpatil,3,"['comment_authors', 'author']",kirteshpatil,False,False,False,False,False
-Balandat,28,"['comment_authors', 'author', 'review_comment_authors']",balandat,False,False,False,False,False
+Balandat,28,"['author', 'comment_authors', 'review_comment_authors']",balandat,False,False,False,False,False
 bangshengtang,5,['author'],bangshengtang,False,False,False,False,False
 joh4n,3,"['comment_authors', 'review_comment_authors', 'author']",joh4n,False,False,False,False,False
 pohmelie,4,"['comment_authors', 'author']",pohmelie,False,False,False,False,False
@@ -654,7 +654,7 @@ JakobHavtorn,3,"['comment_authors', 'author']",jakobhavtorn,False,False,False,Fa
 yaroslavvb,4,"['comment_authors', 'author']",yaroslavvb,False,False,False,False,False
 gngdb,1,['author'],gngdb,False,False,False,False,False
 manofmountain,2,"['comment_authors', 'author']",manofmountain,False,False,False,False,False
-jspisak,29,"['comment_authors', 'author', 'review_comment_authors']",jspisak,False,False,False,False,False
+jspisak,29,"['author', 'comment_authors', 'review_comment_authors']",jspisak,False,False,False,False,False
 realdoug,7,"['comment_authors', 'review_comment_authors', 'author']",realdoug,False,False,False,False,False
 tengyifei,3,"['comment_authors', 'review_comment_authors', 'author']",tengyifei,False,False,False,False,False
 wangg12,1,['author'],wangg12,False,False,False,False,False
@@ -672,7 +672,7 @@ svenevs,3,"['comment_authors', 'author']",svenevs,False,False,False,False,False
 liezl200,1,['author'],liezl200,False,False,False,False,False
 brianjo,39,"['comment_authors', 'review_comment_authors', 'author']",brianjo,False,False,False,False,False
 spandantiwari,170,"['comment_authors', 'review_comment_authors', 'author']",spandantiwari,False,False,False,False,False
-ericnakagawa,6,"['comment_authors', 'author', 'review_comment_authors']",ericnakagawa,False,False,False,False,False
+ericnakagawa,6,"['author', 'comment_authors', 'review_comment_authors']",ericnakagawa,False,False,False,False,False
 romain-intel,1,['comment_authors'],romain-intel,False,True,False,True,True
 jiecaoyu,5,"['comment_authors', 'author']",jiecaoyu,False,False,False,False,False
 lopuhin,5,"['comment_authors', 'author']",lopuhin,False,False,False,False,False
@@ -713,7 +713,7 @@ deepakn94,1,['comment_authors'],deepakn94,False,True,False,True,True
 amit794,1,['author'],amit794,False,False,False,False,False
 samedii,2,"['comment_authors', 'author']",samedii,False,False,False,False,False
 lauragustafson,1,['author'],lauragustafson,False,False,False,False,False
-Orvid,5,"['comment_authors', 'author', 'review_comment_authors']",orvid,False,False,False,False,False
+Orvid,5,"['author', 'comment_authors', 'review_comment_authors']",orvid,False,False,False,False,False
 Darktex,4,"['comment_authors', 'review_comment_authors', 'author']",darktex,False,False,False,False,False
 marcemq,2,['author'],marcemq,False,False,False,False,False
 benoitsteiner,12,"['comment_authors', 'review_comment_authors', 'author']",benoitsteiner,False,False,False,False,False
@@ -764,13 +764,13 @@ zmurez,1,['comment_authors'],zmurez,False,True,False,True,True
 dskhudia,145,"['comment_authors', 'review_comment_authors', 'author']",dskhudia,False,False,False,False,False
 serega,2,"['review_comment_authors', 'author']",serega,False,False,False,False,False
 yytdfc,1,['author'],yytdfc,False,False,False,False,False
-shubhambhokare1,168,"['comment_authors', 'author', 'review_comment_authors']",shubhambhokare1,False,False,False,False,False
+shubhambhokare1,168,"['author', 'comment_authors', 'review_comment_authors']",shubhambhokare1,False,False,False,False,False
 junweima,1,['comment_authors'],junweima,False,True,False,True,True
 LowikC,2,"['review_comment_authors', 'author']",lowikc,False,False,False,False,False
 PinkySan,1,['author'],pinkysan,False,False,False,False,False
 selat,3,['author'],selat,False,False,False,False,False
 ainsleyh,1,['author'],ainsleyh,False,False,False,False,False
-sidazhang,16,"['comment_authors', 'author', 'review_comment_authors']",sidazhang,False,False,False,False,False
+sidazhang,16,"['author', 'comment_authors', 'review_comment_authors']",sidazhang,False,False,False,False,False
 Fleischner,1,['comment_authors'],fleischner,False,True,False,True,True
 GuoxiaWang,1,['author'],guoxiawang,False,False,False,False,False
 ArutyunovG,19,"['comment_authors', 'review_comment_authors', 'author']",arutyunovg,False,False,False,False,False
@@ -791,7 +791,7 @@ donnyyou,12,"['comment_authors', 'author']",donnyyou,False,False,False,False,Fal
 dan-zheng,1,['author'],dan-zheng,False,False,False,False,False
 cndn,2,['author'],cndn,False,False,False,False,False
 msaroufim,258,"['comment_authors', 'review_comment_authors', 'author']",msaroufim,False,False,False,False,False
-garymm,329,"['comment_authors', 'author', 'review_comment_authors']",garymm,False,False,False,False,False
+garymm,329,"['author', 'comment_authors', 'review_comment_authors']",garymm,False,False,False,False,False
 anshulverma,1,['author'],anshulverma,False,False,False,False,False
 lberrada,3,"['comment_authors', 'author']",lberrada,False,False,False,False,False
 queqichao,1,['author'],queqichao,False,False,False,False,False
@@ -801,16 +801,16 @@ augustofg,2,"['comment_authors', 'author']",augustofg,False,False,False,False,Fa
 yesthisisjoe,1,['author'],yesthisisjoe,False,False,False,False,False
 taekinkim,1,['author'],taekinkim,False,False,False,False,False
 sgolodetz,6,"['comment_authors', 'author']",sgolodetz,False,False,False,False,False
-igormq,3,"['comment_authors', 'author', 'review_comment_authors']",igormq,False,False,False,False,False
+igormq,3,"['author', 'comment_authors', 'review_comment_authors']",igormq,False,False,False,False,False
 jario-jin,2,"['review_comment_authors', 'author']",jario-jin,False,False,False,False,False
 idning,8,"['comment_authors', 'author']",idning,False,False,False,False,False
 0wu,2,"['comment_authors', 'author']",0wu,False,False,False,False,False
-sampepose,7,"['comment_authors', 'author', 'review_comment_authors']",sampepose,False,False,False,False,False
+sampepose,7,"['author', 'comment_authors', 'review_comment_authors']",sampepose,False,False,False,False,False
 chandlerzuo,28,"['comment_authors', 'review_comment_authors', 'author']",chandlerzuo,False,False,False,False,False
 jeanm,1,['comment_authors'],jeanm,False,True,False,True,True
 whllhw,2,"['review_comment_authors', 'author']",whllhw,False,False,False,False,False
 mrTsjolder,17,"['comment_authors', 'review_comment_authors', 'author']",mrtsjolder,False,False,False,False,False
-kostmo,1382,"['comment_authors', 'author', 'review_comment_authors']",kostmo,False,False,True,True,True
+kostmo,1382,"['author', 'comment_authors', 'review_comment_authors']",kostmo,False,False,True,True,True
 andersenchen,21,"['comment_authors', 'review_comment_authors', 'author']",andersenchen,False,False,False,False,False
 kaintels,2,['author'],kaintels,False,False,False,False,False
 aldian,2,"['comment_authors', 'author']",aldian,False,False,False,False,False
@@ -899,7 +899,7 @@ TobiasFischerP4D,1,['comment_authors'],tobiasfischerp4d,False,True,False,True,Tr
 LemonPi,1,['comment_authors'],lemonpi,False,True,False,True,True
 iwroldtan,1,['comment_authors'],iwroldtan,False,True,False,True,True
 kmatzen,8,"['comment_authors', 'review_comment_authors', 'author']",kmatzen,False,False,False,False,False
-rgommers,351,"['comment_authors', 'author', 'review_comment_authors']",rgommers,False,False,False,False,False
+rgommers,351,"['author', 'comment_authors', 'review_comment_authors']",rgommers,False,False,False,False,False
 BoboTiG,3,"['comment_authors', 'author']",bobotig,False,False,False,False,False
 srush,3,"['comment_authors', 'review_comment_authors', 'author']",srush,False,False,False,False,False
 stites,1,['comment_authors'],stites,False,True,False,True,True
@@ -931,7 +931,7 @@ eyyub,1,['author'],eyyub,False,False,False,False,False
 wahabmk,2,"['comment_authors', 'author']",wahabmk,False,False,False,False,False
 ArmaanSethi,1,['author'],armaansethi,False,False,False,False,False
 ShayanPersonal,1,['comment_authors'],shayanpersonal,False,True,False,True,True
-ljk53,472,"['comment_authors', 'author', 'review_comment_authors']",ljk53,False,False,False,False,False
+ljk53,472,"['author', 'comment_authors', 'review_comment_authors']",ljk53,False,False,False,False,False
 benjibc,6,"['comment_authors', 'author']",benjibc,False,False,False,False,False
 ashermancinelli,3,"['comment_authors', 'review_comment_authors', 'author']",ashermancinelli,False,False,False,False,False
 nlml,2,"['comment_authors', 'author']",nlml,False,False,False,False,False
@@ -1065,10 +1065,10 @@ nzmora,4,"['comment_authors', 'author']",nzmora,False,False,False,False,False
 tomahawk810,1,['comment_authors'],tomahawk810,False,True,False,True,True
 zdong1995,2,['author'],zdong1995,False,False,False,False,False
 nishantpdce,46,"['author', 'comment_authors', 'review_comment_authors']",nishantpdce,False,False,False,False,False
-raghuramank100,494,"['comment_authors', 'author', 'review_comment_authors']",raghuramank100,False,False,False,False,False
+raghuramank100,494,"['author', 'comment_authors', 'review_comment_authors']",raghuramank100,False,False,False,False,False
 dchirikov,1,['author'],dchirikov,False,False,False,False,False
 bilgeacun,5,"['comment_authors', 'author']",bilgeacun,False,False,False,False,False
-stas00,78,"['comment_authors', 'author', 'review_comment_authors']",stas00,False,False,False,False,False
+stas00,78,"['author', 'comment_authors', 'review_comment_authors']",stas00,False,False,False,False,False
 kureta,1,['author'],kureta,False,False,False,False,False
 tshrjn,2,"['comment_authors', 'review_comment_authors']",tshrjn,False,True,False,True,True
 kyunghyuncho,1,['comment_authors'],kyunghyuncho,False,True,False,True,True
@@ -1160,7 +1160,7 @@ shaeqahmed,1,['author'],shaeqahmed,False,False,False,False,False
 dthul,2,"['comment_authors', 'author']",dthul,False,False,False,False,False
 mengban,2,"['comment_authors', 'author']",mengban,False,False,False,False,False
 marcomorain,3,"['comment_authors', 'review_comment_authors', 'author']",marcomorain,False,False,False,False,False
-glenjamin,4,"['comment_authors', 'author', 'review_comment_authors']",glenjamin,False,False,False,False,False
+glenjamin,4,"['author', 'comment_authors', 'review_comment_authors']",glenjamin,False,False,False,False,False
 shiv-gpt,1,['author'],shiv-gpt,False,False,False,False,False
 seungwonpark,1,['author'],seungwonpark,False,False,False,False,False
 kindlychung,1,['comment_authors'],kindlychung,False,True,False,True,True
@@ -1171,7 +1171,7 @@ SdgJlbl,2,['author'],sdgjlbl,False,False,False,False,False
 ccheng16,2,['author'],ccheng16,False,False,False,False,False
 yanboliang,576,"['comment_authors', 'review_comment_authors', 'author']",yanboliang,False,False,True,True,True
 pk-g,6,"['comment_authors', 'review_comment_authors', 'author']",pk-g,False,False,False,False,False
-stephenroller,7,"['comment_authors', 'author', 'review_comment_authors']",stephenroller,False,False,False,False,False
+stephenroller,7,"['author', 'comment_authors', 'review_comment_authors']",stephenroller,False,False,False,False,False
 nataliakliushkina,21,"['comment_authors', 'author']",nataliakliushkina,False,False,False,False,False
 un-disclosed,2,['author'],un-disclosed,False,False,False,False,False
 rmcavoy,3,"['comment_authors', 'review_comment_authors']",rmcavoy,False,True,False,True,True
@@ -1238,7 +1238,7 @@ yn4bit,4,"['comment_authors', 'author']",yn4bit,False,False,False,False,False
 djsutherland,2,"['comment_authors', 'author']",djsutherland,False,False,False,False,False
 yulinhuyang,1,['comment_authors'],yulinhuyang,False,True,False,True,True
 link2xt,1,['author'],link2xt,False,False,False,False,False
-bnehoran,21,"['comment_authors', 'author', 'review_comment_authors']",bnehoran,False,False,False,False,False
+bnehoran,21,"['author', 'comment_authors', 'review_comment_authors']",bnehoran,False,False,False,False,False
 pandeykartikey,6,"['comment_authors', 'review_comment_authors', 'author']",pandeykartikey,False,False,False,False,False
 jpgard,1,['author'],jpgard,False,False,False,False,False
 selaselah,1,['author'],selaselah,False,False,False,False,False
@@ -1257,7 +1257,7 @@ sovvo,1,['author'],sovvo,False,False,False,False,False
 yqwangustc,7,"['comment_authors', 'review_comment_authors', 'author']",yqwangustc,False,False,False,False,False
 mjacar,7,"['comment_authors', 'review_comment_authors', 'author']",mjacar,False,False,False,False,False
 sh0416,1,['comment_authors'],sh0416,False,True,False,True,True
-veritas9872,5,"['comment_authors', 'author', 'review_comment_authors']",veritas9872,False,False,False,False,False
+veritas9872,5,"['author', 'comment_authors', 'review_comment_authors']",veritas9872,False,False,False,False,False
 MKFMIKU,4,"['comment_authors', 'review_comment_authors', 'author']",mkfmiku,False,False,False,False,False
 malvika2147,38,"['comment_authors', 'review_comment_authors', 'author']",malvika2147,False,False,False,False,False
 shihongzhi,31,"['comment_authors', 'review_comment_authors', 'author']",shihongzhi,False,False,False,False,False
@@ -1314,9 +1314,9 @@ andravin,3,"['comment_authors', 'review_comment_authors']",andravin,False,True,F
 yaysummeriscoming,1,['comment_authors'],yaysummeriscoming,False,True,False,True,True
 iiSeymour,5,"['comment_authors', 'review_comment_authors', 'author']",iiseymour,False,False,False,False,False
 tixxit,1,['author'],tixxit,False,False,False,False,False
-swolchok,965,"['comment_authors', 'author', 'review_comment_authors']",swolchok,False,False,True,True,True
+swolchok,965,"['author', 'comment_authors', 'review_comment_authors']",swolchok,False,False,True,True,True
 ndrwnaguib,1,['author'],ndrwnaguib,False,False,False,False,False
-jbschlosser,907,"['comment_authors', 'author', 'review_comment_authors']",jbschlosser,False,False,True,True,True
+jbschlosser,907,"['author', 'comment_authors', 'review_comment_authors']",jbschlosser,False,False,True,True,True
 astooke,5,"['comment_authors', 'review_comment_authors', 'author']",astooke,False,False,False,False,False
 dkotfis-oculus,1,['author'],dkotfis-oculus,False,False,False,False,False
 gkmhub,1,['author'],gkmhub,False,False,False,False,False
@@ -1358,7 +1358,7 @@ kevinwilfong,3,['author'],kevinwilfong,False,False,False,False,False
 ZhuJewel,3,['comment_authors'],zhujewel,False,True,False,True,True
 walterddr,681,"['author', 'comment_authors', 'review_comment_authors']",walterddr,False,False,True,True,True
 tschmidt23,3,"['comment_authors', 'author']",tschmidt23,False,False,False,False,False
-svekars,137,"['comment_authors', 'author', 'review_comment_authors']",svekars,False,False,False,False,False
+svekars,137,"['author', 'comment_authors', 'review_comment_authors']",svekars,False,False,False,False,False
 wenqicaofb,2,['author'],wenqicaofb,False,False,False,False,False
 ejguan,595,"['comment_authors', 'review_comment_authors', 'author']",ejguan,False,False,True,True,True
 jerry73204,3,"['comment_authors', 'author']",jerry73204,False,False,False,False,False
@@ -1379,10 +1379,10 @@ dncliss,16,"['comment_authors', 'author']",dncliss,False,False,False,False,False
 ilhamfp,3,"['comment_authors', 'author']",ilhamfp,False,False,False,False,False
 rohitrango,2,"['comment_authors', 'author']",rohitrango,False,False,False,False,False
 SethHWeidman,2,"['comment_authors', 'author']",sethhweidman,False,False,False,False,False
-ngoldbaum,42,"['comment_authors', 'author', 'review_comment_authors']",ngoldbaum,False,False,False,False,False
+ngoldbaum,42,"['author', 'comment_authors', 'review_comment_authors']",ngoldbaum,False,False,False,False,False
 wmingwei,1,['author'],wmingwei,False,False,False,False,False
 zcain117,1,['comment_authors'],zcain117,False,True,False,True,True
-byronyi,20,"['comment_authors', 'author', 'review_comment_authors']",byronyi,False,False,False,False,False
+byronyi,20,"['author', 'comment_authors', 'review_comment_authors']",byronyi,False,False,False,False,False
 pippinpippin,2,['author'],pippinpippin,False,False,False,False,False
 wswday,1,['author'],wswday,False,False,False,False,False
 oja,2,"['comment_authors', 'author']",oja,False,False,False,False,False
@@ -1428,7 +1428,7 @@ Phirefly9,3,"['comment_authors', 'review_comment_authors', 'author']",phirefly9,
 krikru,1,['comment_authors'],krikru,False,True,False,True,True
 beam2d,4,"['comment_authors', 'review_comment_authors', 'author']",beam2d,False,False,False,False,False
 jakirkham,2,['comment_authors'],jakirkham,False,True,False,True,True
-leofang,21,"['comment_authors', 'author', 'review_comment_authors']",leofang,False,False,False,False,False
+leofang,21,"['author', 'comment_authors', 'review_comment_authors']",leofang,False,False,False,False,False
 jfc4050,10,"['comment_authors', 'review_comment_authors', 'author']",jfc4050,False,False,False,False,False
 pdlive215,10,"['comment_authors', 'review_comment_authors', 'author']",pdlive215,False,False,False,False,False
 Santosh-Gupta,2,"['comment_authors', 'author']",santosh-gupta,False,False,False,False,False
@@ -1455,7 +1455,7 @@ cloudhan,42,"['comment_authors', 'review_comment_authors', 'author']",cloudhan,F
 whshty,1,['author'],whshty,False,False,False,False,False
 TortillasAlfred,1,['author'],tortillasalfred,False,False,False,False,False
 jiayisunx,100,"['comment_authors', 'review_comment_authors', 'author']",jiayisunx,False,False,False,False,False
-CaoZhongZ,23,"['comment_authors', 'author', 'review_comment_authors']",caozhongz,False,False,False,False,False
+CaoZhongZ,23,"['author', 'comment_authors', 'review_comment_authors']",caozhongz,False,False,False,False,False
 ljjb,3,['author'],ljjb,False,False,False,False,False
 linbinyu,165,"['comment_authors', 'review_comment_authors', 'author']",linbinyu,False,False,False,False,False
 AshkanAliabadi,258,"['comment_authors', 'review_comment_authors', 'author']",ashkanaliabadi,False,False,False,False,False
@@ -1566,7 +1566,7 @@ manideep2510,1,['author'],manideep2510,False,False,False,False,False
 mihaimaruseac,1,['comment_authors'],mihaimaruseac,False,True,False,True,True
 GeniusYe,1,['author'],geniusye,False,False,False,False,False
 bryant1410,27,"['comment_authors', 'review_comment_authors', 'author']",bryant1410,False,False,False,False,False
-glaringlee,261,"['comment_authors', 'author', 'review_comment_authors']",glaringlee,False,False,False,False,False
+glaringlee,261,"['author', 'comment_authors', 'review_comment_authors']",glaringlee,False,False,False,False,False
 jonmoon74,1,['author'],jonmoon74,False,False,False,False,False
 SteiMi,1,['author'],steimi,False,False,False,False,False
 foreshadow,1,['author'],foreshadow,False,False,False,False,False
@@ -1737,7 +1737,7 @@ luxe,1,['author'],luxe,False,False,False,False,False
 bertmaher,597,"['comment_authors', 'review_comment_authors', 'author']",bertmaher,False,False,True,True,True
 den-run-ai,1,['author'],den-run-ai,False,False,False,False,False
 ramcherukuri,3,"['comment_authors', 'author']",ramcherukuri,False,False,False,False,False
-drdarshan,14,"['comment_authors', 'author', 'review_comment_authors']",drdarshan,False,False,False,False,False
+drdarshan,14,"['author', 'comment_authors', 'review_comment_authors']",drdarshan,False,False,False,False,False
 majidaldo,1,['comment_authors'],majidaldo,False,True,False,True,True
 wallyxie,1,['comment_authors'],wallyxie,False,True,False,True,True
 V-Enzo,1,['review_comment_authors'],v-enzo,False,True,False,True,True
@@ -1863,7 +1863,7 @@ kostekIV,6,"['comment_authors', 'review_comment_authors', 'author']",kostekiv,Fa
 noahgolmant,1,['author'],noahgolmant,False,False,False,False,False
 huangzhiyuan,2,"['comment_authors', 'author']",huangzhiyuan,False,False,False,False,False
 MAbdanM,3,"['comment_authors', 'review_comment_authors', 'author']",mabdanm,False,False,False,False,False
-oguzserbetci,3,"['comment_authors', 'author', 'review_comment_authors']",oguzserbetci,False,False,False,False,False
+oguzserbetci,3,"['author', 'comment_authors', 'review_comment_authors']",oguzserbetci,False,False,False,False,False
 janucaria,1,['review_comment_authors'],janucaria,False,True,False,True,True
 nickgg,170,"['author', 'comment_authors', 'review_comment_authors']",nickgg,False,False,False,False,False
 jfix71,65,"['comment_authors', 'review_comment_authors', 'author']",jfix71,False,False,False,False,False
@@ -1906,7 +1906,7 @@ yuxihu,3,['author'],yuxihu,False,False,False,False,False
 aoli-al,1,['author'],aoli-al,False,False,False,False,False
 valmikir,1,['author'],valmikir,False,False,False,False,False
 IlyaOvodov,3,"['comment_authors', 'author']",ilyaovodov,False,False,False,False,False
-voznesenskym,1216,"['comment_authors', 'author', 'review_comment_authors']",voznesenskym,False,False,True,True,True
+voznesenskym,1216,"['author', 'comment_authors', 'review_comment_authors']",voznesenskym,False,False,True,True,True
 CrazyChickenDev,1,['comment_authors'],crazychickendev,False,True,False,True,True
 VivekPanyam,3,"['comment_authors', 'review_comment_authors', 'author']",vivekpanyam,False,False,False,False,False
 jcarilli,1,['comment_authors'],jcarilli,False,True,False,True,True
@@ -1937,7 +1937,7 @@ jerryc05,2,"['comment_authors', 'author']",jerryc05,False,False,False,False,Fals
 powderluv,8,"['comment_authors', 'review_comment_authors', 'author']",powderluv,False,False,False,False,False
 jsyoo61,3,"['review_comment_authors', 'author']",jsyoo61,False,False,False,False,False
 ckastner,1,['author'],ckastner,False,False,False,False,False
-fxmarty,10,"['comment_authors', 'author', 'review_comment_authors']",fxmarty,False,False,False,False,False
+fxmarty,10,"['author', 'comment_authors', 'review_comment_authors']",fxmarty,False,False,False,False,False
 parthagar,2,"['comment_authors', 'author']",parthagar,False,False,False,False,False
 TomoshibiAkira,3,"['comment_authors', 'review_comment_authors', 'author']",tomoshibiakira,False,False,False,False,False
 guyang3532,44,"['comment_authors', 'review_comment_authors', 'author']",guyang3532,False,False,False,False,False
@@ -1962,7 +1962,7 @@ suffiank,6,"['comment_authors', 'review_comment_authors', 'author']",suffiank,Fa
 jcwchen,21,"['comment_authors', 'review_comment_authors', 'author']",jcwchen,False,False,False,False,False
 alexshuang,2,['author'],alexshuang,False,False,False,False,False
 mrityunjay-tripathi,1,['author'],mrityunjay-tripathi,False,False,False,False,False
-IvanYashchuk,878,"['comment_authors', 'author', 'review_comment_authors']",ivanyashchuk,False,False,True,True,True
+IvanYashchuk,878,"['author', 'comment_authors', 'review_comment_authors']",ivanyashchuk,False,False,True,True,True
 megaserg,1,['comment_authors'],megaserg,False,True,False,True,True
 ntenenz,3,"['author', 'review_comment_authors']",ntenenz,False,False,False,False,False
 yoshnary,1,['author'],yoshnary,False,False,False,False,False
@@ -2034,7 +2034,7 @@ JulienMaille,1,['comment_authors'],julienmaille,False,True,False,True,True
 amitbcp,1,['comment_authors'],amitbcp,False,True,False,True,True
 paulshaoyuqiao,33,"['review_comment_authors', 'author']",paulshaoyuqiao,False,False,False,False,False
 pytorchmergebot,18217,"['comment_authors', 'author']",pytorchmergebot,False,False,True,True,True
-ydaiming,16,"['comment_authors', 'author', 'review_comment_authors']",ydaiming,False,False,False,False,False
+ydaiming,16,"['author', 'comment_authors', 'review_comment_authors']",ydaiming,False,False,False,False,False
 Dudly01,1,['comment_authors'],dudly01,False,True,False,True,True
 rogertrullo,1,['comment_authors'],rogertrullo,False,True,False,True,True
 cth7,3,"['comment_authors', 'review_comment_authors', 'author']",cth7,False,False,False,False,False
@@ -2053,7 +2053,7 @@ aocsa,111,"['comment_authors', 'review_comment_authors', 'author']",aocsa,False,
 edmundw314,20,"['review_comment_authors', 'author']",edmundw314,False,False,False,False,False
 chebbyChefNEQ,3,"['comment_authors', 'review_comment_authors', 'author']",chebbychefneq,False,False,False,False,False
 thatdan23,2,"['review_comment_authors', 'author']",thatdan23,False,False,False,False,False
-edward-io,23,"['comment_authors', 'author', 'review_comment_authors']",edward-io,False,False,False,False,False
+edward-io,23,"['author', 'comment_authors', 'review_comment_authors']",edward-io,False,False,False,False,False
 wangxiyuan,22,"['comment_authors', 'author']",wangxiyuan,False,False,False,False,False
 husthyc,36,['author'],husthyc,False,False,False,False,False
 skyw,6,"['comment_authors', 'review_comment_authors', 'author']",skyw,False,False,False,False,False
@@ -2211,7 +2211,7 @@ rodosingh,3,"['comment_authors', 'review_comment_authors']",rodosingh,False,True
 miraliahmadli,4,"['comment_authors', 'author']",miraliahmadli,False,False,False,False,False
 HsLOL,1,['comment_authors'],hslol,False,True,False,True,True
 YodaEmbedding,1,['comment_authors'],yodaembedding,False,True,False,True,True
-janeyx99,1932,"['comment_authors', 'author', 'review_comment_authors']",janeyx99,False,False,True,True,True
+janeyx99,1932,"['author', 'comment_authors', 'review_comment_authors']",janeyx99,False,False,True,True,True
 casillano,2,"['comment_authors', 'author']",casillano,False,False,False,False,False
 0x4f5da2,2,['author'],0x4f5da2,False,False,False,False,False
 nazmulshuvo03,1,['author'],nazmulshuvo03,False,False,False,False,False
@@ -2235,7 +2235,7 @@ davanstrien,1,['author'],davanstrien,False,False,False,False,False
 chrish42,2,"['comment_authors', 'author']",chrish42,False,False,False,False,False
 udbhav-chugh,1,['author'],udbhav-chugh,False,False,False,False,False
 sujoysaraswati,26,"['comment_authors', 'review_comment_authors', 'author']",sujoysaraswati,False,False,False,False,False
-SujoysGithub,8,"['comment_authors', 'author', 'review_comment_authors']",sujoysgithub,False,False,False,False,False
+SujoysGithub,8,"['author', 'comment_authors', 'review_comment_authors']",sujoysgithub,False,False,False,False,False
 masterodev,1,['author'],masterodev,False,False,False,False,False
 subramen,5,"['comment_authors', 'review_comment_authors', 'author']",subramen,False,False,False,False,False
 usneil,2,"['comment_authors', 'author']",usneil,False,False,False,False,False
@@ -2313,7 +2313,7 @@ bitfort,27,"['comment_authors', 'review_comment_authors', 'author']",bitfort,Fal
 simranmahindrakar,1,['author'],simranmahindrakar,False,False,False,False,False
 neal2018,3,"['comment_authors', 'author']",neal2018,False,False,False,False,False
 ivannz,4,"['comment_authors', 'review_comment_authors', 'author']",ivannz,False,False,False,False,False
-casparvl,11,"['comment_authors', 'author', 'review_comment_authors']",casparvl,False,False,False,False,False
+casparvl,11,"['author', 'comment_authors', 'review_comment_authors']",casparvl,False,False,False,False,False
 hlahkar,39,"['comment_authors', 'review_comment_authors', 'author']",hlahkar,False,False,False,False,False
 llStringll,1,['author'],llstringll,False,False,False,False,False
 xuzhao9,157,"['comment_authors', 'review_comment_authors', 'author']",xuzhao9,False,False,False,False,False
@@ -2415,7 +2415,7 @@ henryiii,4,"['comment_authors', 'review_comment_authors']",henryiii,False,True,F
 Abhigyankrsingh,1,['author'],abhigyankrsingh,False,False,False,False,False
 Lun-Liu,1,['author'],lun-liu,False,False,False,False,False
 samuelm00,1,['author'],samuelm00,False,False,False,False,False
-gdankel,35,"['comment_authors', 'author', 'review_comment_authors']",gdankel,False,False,False,False,False
+gdankel,35,"['author', 'comment_authors', 'review_comment_authors']",gdankel,False,False,False,False,False
 LuckyBoyDE,2,"['comment_authors', 'author']",luckyboyde,False,False,False,False,False
 Corom181,1,['author'],corom181,False,False,False,False,False
 ivanmurashko,7,"['comment_authors', 'author']",ivanmurashko,False,False,False,False,False
@@ -2652,14 +2652,14 @@ agamemnonc,1,['author'],agamemnonc,False,False,False,False,False
 arindamroy-eng,57,"['comment_authors', 'review_comment_authors', 'author']",arindamroy-eng,False,False,False,False,False
 dand-oss,1,['author'],dand-oss,False,False,False,False,False
 wanyu2018umac,4,"['comment_authors', 'review_comment_authors', 'author']",wanyu2018umac,False,False,False,False,False
-frank-wei,89,"['comment_authors', 'author', 'review_comment_authors']",frank-wei,False,False,False,False,False
+frank-wei,89,"['author', 'comment_authors', 'review_comment_authors']",frank-wei,False,False,False,False,False
 bmon581,20,"['comment_authors', 'review_comment_authors', 'author']",bmon581,False,False,False,False,False
 dreizehnutters,3,"['comment_authors', 'author']",dreizehnutters,False,False,False,False,False
 nlgranger,5,"['comment_authors', 'review_comment_authors', 'author']",nlgranger,False,False,False,False,False
 Ryul0rd,1,['comment_authors'],ryul0rd,False,True,False,True,True
 ajsanjoaquin,5,"['comment_authors', 'review_comment_authors', 'author']",ajsanjoaquin,False,False,False,False,False
 MHDante,2,"['comment_authors', 'author']",mhdante,False,False,False,False,False
-jakebailey,5,"['comment_authors', 'author', 'review_comment_authors']",jakebailey,False,False,False,False,False
+jakebailey,5,"['author', 'comment_authors', 'review_comment_authors']",jakebailey,False,False,False,False,False
 gramster,1,['review_comment_authors'],gramster,False,True,False,True,True
 brettcannon,1,['review_comment_authors'],brettcannon,False,True,False,True,True
 cvluca,2,"['comment_authors', 'author']",cvluca,False,False,False,False,False
@@ -2747,7 +2747,7 @@ lartpang,6,"['comment_authors', 'review_comment_authors', 'author']",lartpang,Fa
 zhjlee11,1,['author'],zhjlee11,False,False,False,False,False
 satpathyy,1,['author'],satpathyy,False,False,False,False,False
 sv1996,1,['author'],sv1996,False,False,False,False,False
-awaelchli,22,"['comment_authors', 'author', 'review_comment_authors']",awaelchli,False,False,False,False,False
+awaelchli,22,"['author', 'comment_authors', 'review_comment_authors']",awaelchli,False,False,False,False,False
 mgoldenbe,1,['comment_authors'],mgoldenbe,False,True,False,True,True
 veeara282,3,"['comment_authors', 'author']",veeara282,False,False,False,False,False
 tomMoral,6,"['comment_authors', 'author']",tommoral,False,False,False,False,False
@@ -2758,7 +2758,7 @@ cgravill,2,"['author', 'review_comment_authors']",cgravill,False,False,False,Fal
 JeanKossaifi,3,"['comment_authors', 'review_comment_authors', 'author']",jeankossaifi,False,False,False,False,False
 carolineechen,2,['author'],carolineechen,False,False,False,False,False
 jkyl,1,['author'],jkyl,False,False,False,False,False
-justinchuby,730,"['comment_authors', 'author', 'review_comment_authors']",justinchuby,False,False,True,True,True
+justinchuby,730,"['author', 'comment_authors', 'review_comment_authors']",justinchuby,False,False,True,True,True
 haydn-jones,1,['comment_authors'],haydn-jones,False,True,False,True,True
 larryliu0820,257,"['comment_authors', 'review_comment_authors', 'author']",larryliu0820,False,False,False,False,False
 tmliew,1,['author'],tmliew,False,False,False,False,False
@@ -2939,7 +2939,7 @@ shividhar,1,['author'],shividhar,False,False,False,False,False
 semrefb,1,['author'],semrefb,False,False,False,False,False
 awgu,1516,"['comment_authors', 'review_comment_authors', 'author']",awgu,False,False,True,True,True
 esantorella,6,"['comment_authors', 'author']",esantorella,False,False,False,False,False
-ramvenkat98,8,"['comment_authors', 'author', 'review_comment_authors']",ramvenkat98,False,False,False,False,False
+ramvenkat98,8,"['author', 'comment_authors', 'review_comment_authors']",ramvenkat98,False,False,False,False,False
 ps-19,1,['author'],ps-19,False,False,False,False,False
 aspenstarss,4,"['comment_authors', 'review_comment_authors', 'author']",aspenstarss,False,False,False,False,False
 developer0hye,2,['author'],developer0hye,False,False,False,False,False
@@ -2952,7 +2952,7 @@ wangkuiyi,13,"['comment_authors', 'review_comment_authors', 'author']",wangkuiyi
 leej35,1,['author'],leej35,False,False,False,False,False
 IAmKohlton,3,"['comment_authors', 'author']",iamkohlton,False,False,False,False,False
 Doublelucker,1,['comment_authors'],doublelucker,False,True,False,True,True
-zejun-chen,27,"['comment_authors', 'author', 'review_comment_authors']",zejun-chen,False,False,False,False,False
+zejun-chen,27,"['author', 'comment_authors', 'review_comment_authors']",zejun-chen,False,False,False,False,False
 Varal7,88,"['comment_authors', 'review_comment_authors', 'author']",varal7,False,False,False,False,False
 SirLegolot,9,"['comment_authors', 'review_comment_authors', 'author']",sirlegolot,False,False,False,False,False
 TJ-coding,4,"['comment_authors', 'review_comment_authors', 'author']",tj-coding,False,False,False,False,False
@@ -3232,7 +3232,7 @@ metalprogrammer,3,"['comment_authors', 'review_comment_authors', 'author']",meta
 EshikaShah,3,['author'],eshikashah,False,False,False,False,False
 TechMirage,3,"['comment_authors', 'review_comment_authors', 'author']",techmirage,False,False,False,False,False
 tchaton,2,"['comment_authors', 'review_comment_authors']",tchaton,False,True,False,True,True
-anj-s,12,"['comment_authors', 'author', 'review_comment_authors']",anj-s,False,False,False,False,False
+anj-s,12,"['author', 'comment_authors', 'review_comment_authors']",anj-s,False,False,False,False,False
 yukini2009,1,['comment_authors'],yukini2009,False,True,False,True,True
 Andreas-Krebbel,2,['comment_authors'],andreas-krebbel,False,True,False,True,True
 thomasw21,10,"['comment_authors', 'review_comment_authors', 'author']",thomasw21,False,False,False,False,False
@@ -3253,7 +3253,7 @@ mattjgalloway,3,['author'],mattjgalloway,False,False,False,False,False
 pilleye,2,['author'],pilleye,False,False,False,False,False
 gardenia22,1,['author'],gardenia22,False,False,False,False,False
 kkontny,2,"['comment_authors', 'author']",kkontny,False,False,False,False,False
-nkaretnikov,610,"['comment_authors', 'author', 'review_comment_authors']",nkaretnikov,False,False,True,True,True
+nkaretnikov,610,"['author', 'comment_authors', 'review_comment_authors']",nkaretnikov,False,False,True,True,True
 MetcalfeTom,2,"['comment_authors', 'author']",metcalfetom,False,False,False,False,False
 marcomulinex,2,"['comment_authors', 'author']",marcomulinex,False,False,False,False,False
 zhaoalex,1,['author'],zhaoalex,False,False,False,False,False
@@ -3266,7 +3266,7 @@ yasar03,1,['author'],yasar03,False,False,False,False,False
 bryanmr,7,"['comment_authors', 'review_comment_authors', 'author']",bryanmr,False,False,False,False,False
 sisilmehta2000,6,"['comment_authors', 'review_comment_authors', 'author']",sisilmehta2000,False,False,False,False,False
 gvmmybear,1,['author'],gvmmybear,False,False,False,False,False
-miladm,36,"['comment_authors', 'author', 'review_comment_authors']",miladm,False,False,False,False,False
+miladm,36,"['author', 'comment_authors', 'review_comment_authors']",miladm,False,False,False,False,False
 francescocastelli,24,"['comment_authors', 'review_comment_authors', 'author']",francescocastelli,False,False,False,False,False
 mattarroz,5,"['comment_authors', 'review_comment_authors', 'author']",mattarroz,False,False,False,False,False
 b0noI,41,"['comment_authors', 'review_comment_authors', 'author']",b0noi,False,False,False,False,False
@@ -3276,7 +3276,7 @@ KinglittleQ,7,"['comment_authors', 'review_comment_authors', 'author']",kinglitt
 BenoitDalFerro,1,['review_comment_authors'],benoitdalferro,False,True,False,True,True
 athitten,2,"['comment_authors', 'author']",athitten,False,False,False,False,False
 gandalf2390,3,['author'],gandalf2390,False,False,False,False,False
-Skylion007,849,"['comment_authors', 'author', 'review_comment_authors']",skylion007,False,False,True,True,True
+Skylion007,849,"['author', 'comment_authors', 'review_comment_authors']",skylion007,False,False,True,True,True
 asharmalik19,1,['author'],asharmalik19,False,False,False,False,False
 sjain-stanford,3,"['comment_authors', 'author']",sjain-stanford,False,False,False,False,False
 OliverFM,12,"['comment_authors', 'review_comment_authors', 'author']",oliverfm,False,False,False,False,False
@@ -3472,7 +3472,7 @@ AnthonyBarbier,9,"['comment_authors', 'review_comment_authors', 'author']",antho
 grimoire,1,['author'],grimoire,False,False,False,False,False
 tigert1998,1,['comment_authors'],tigert1998,False,True,False,True,True
 gaborkertesz-linaro,3,"['comment_authors', 'review_comment_authors', 'author']",gaborkertesz-linaro,False,False,False,False,False
-everton1984,15,"['comment_authors', 'author', 'review_comment_authors']",everton1984,False,False,False,False,False
+everton1984,15,"['author', 'comment_authors', 'review_comment_authors']",everton1984,False,False,False,False,False
 lefoun,1,['author'],lefoun,False,False,False,False,False
 lkct,38,"['comment_authors', 'review_comment_authors', 'author']",lkct,False,False,False,False,False
 jyothisambolu,2,"['comment_authors', 'author']",jyothisambolu,False,False,False,False,False
@@ -3525,7 +3525,7 @@ wcqc,1,['comment_authors'],wcqc,False,True,False,True,True
 astroboylrx,1,['comment_authors'],astroboylrx,False,True,False,True,True
 tianyikillua,1,['comment_authors'],tianyikillua,False,True,False,True,True
 bmedishe,7,"['comment_authors', 'author']",bmedishe,False,False,False,False,False
-henrytwo,17,"['comment_authors', 'author', 'review_comment_authors']",henrytwo,False,False,False,False,False
+henrytwo,17,"['author', 'comment_authors', 'review_comment_authors']",henrytwo,False,False,False,False,False
 clee2000,792,"['comment_authors', 'review_comment_authors', 'author']",clee2000,False,False,True,True,True
 LiamZhuuu,5,['author'],liamzhuuu,False,False,False,False,False
 banitag1,6,['author'],banitag1,False,False,False,False,False
@@ -3820,8 +3820,8 @@ mamaj,1,['author'],mamaj,False,False,False,False,False
 guodongxiaren,2,"['comment_authors', 'author']",guodongxiaren,False,False,False,False,False
 mark39107pro,2,"['comment_authors', 'author']",mark39107pro,False,False,False,False,False
 sjiang95,3,"['comment_authors', 'review_comment_authors', 'author']",sjiang95,False,False,False,False,False
-Blackhex,24,"['comment_authors', 'author', 'review_comment_authors']",blackhex,False,False,False,False,False
-vladimir-aubrecht,11,"['comment_authors', 'author', 'review_comment_authors']",vladimir-aubrecht,False,False,False,False,False
+Blackhex,24,"['author', 'comment_authors', 'review_comment_authors']",blackhex,False,False,False,False,False
+vladimir-aubrecht,11,"['author', 'comment_authors', 'review_comment_authors']",vladimir-aubrecht,False,False,False,False,False
 zaouk,1,['author'],zaouk,False,False,False,False,False
 HamidShojanazeri,2,['comment_authors'],hamidshojanazeri,False,True,False,True,True
 waynechiang,1,['author'],waynechiang,False,False,False,False,False
@@ -3867,7 +3867,7 @@ rohitdhadi25,1,['author'],rohitdhadi25,False,False,False,False,False
 DeviManiTS,2,"['comment_authors', 'author']",devimanits,False,False,False,False,False
 hao-l1,1,['author'],hao-l1,False,False,False,False,False
 skrobchik,4,"['comment_authors', 'author']",skrobchik,False,False,False,False,False
-ax3l,7,"['comment_authors', 'author', 'review_comment_authors']",ax3l,False,False,False,False,False
+ax3l,7,"['author', 'comment_authors', 'review_comment_authors']",ax3l,False,False,False,False,False
 Vaibhav0911,2,"['comment_authors', 'author']",vaibhav0911,False,False,False,False,False
 sypneiwski,33,"['comment_authors', 'review_comment_authors', 'author']",sypneiwski,False,False,False,False,False
 tonyd,1,['author'],tonyd,False,False,False,False,False
@@ -4309,7 +4309,7 @@ GitBatra,1,['author'],gitbatra,False,False,False,False,False
 SridharPerepu,1,['author'],sridharperepu,False,False,False,False,False
 shilpiprd,2,"['comment_authors', 'author']",shilpiprd,False,False,False,False,False
 petrovs12,1,['author'],petrovs12,False,False,False,False,False
-kurman,10,"['comment_authors', 'author', 'review_comment_authors']",kurman,False,False,False,False,False
+kurman,10,"['author', 'comment_authors', 'review_comment_authors']",kurman,False,False,False,False,False
 wenchenvincent,3,"['comment_authors', 'author']",wenchenvincent,False,False,False,False,False
 8Keep,3,"['comment_authors', 'author']",8keep,False,False,False,False,False
 atharvakavitkar,2,"['comment_authors', 'author']",atharvakavitkar,False,False,False,False,False
@@ -4398,7 +4398,7 @@ jglaser,4,"['comment_authors', 'author']",jglaser,False,False,False,False,False
 stanleyshly,1,['comment_authors'],stanleyshly,False,True,False,True,True
 alexisthual,1,['author'],alexisthual,False,False,False,False,False
 akamali,2,"['comment_authors', 'author']",akamali,False,False,False,False,False
-ev-br,101,"['comment_authors', 'author', 'review_comment_authors']",ev-br,False,False,False,False,False
+ev-br,101,"['author', 'comment_authors', 'review_comment_authors']",ev-br,False,False,False,False,False
 kyule7,1,['author'],kyule7,False,False,False,False,False
 minddrummer,2,"['comment_authors', 'author']",minddrummer,False,False,False,False,False
 dolpm,1,['review_comment_authors'],dolpm,False,True,False,True,True
@@ -4643,7 +4643,7 @@ JJGO,2,"['comment_authors', 'author']",jjgo,False,False,False,False,False
 FrankTianTT,3,"['comment_authors', 'author']",franktiantt,False,False,False,False,False
 skc7,5,"['comment_authors', 'review_comment_authors', 'author']",skc7,False,False,False,False,False
 pandaninjas,9,"['comment_authors', 'review_comment_authors', 'author']",pandaninjas,False,False,False,False,False
-zabboud,16,"['comment_authors', 'author', 'review_comment_authors']",zabboud,False,False,False,False,False
+zabboud,16,"['author', 'comment_authors', 'review_comment_authors']",zabboud,False,False,False,False,False
 reshma045,1,['author'],reshma045,False,False,False,False,False
 kuecks,1,['author'],kuecks,False,False,False,False,False
 cviviers,2,"['review_comment_authors', 'author']",cviviers,False,False,False,False,False
@@ -4687,7 +4687,7 @@ xuhancn,24,"['comment_authors', 'review_comment_authors', 'author']",xuhancn,Fal
 foxtran,1,['review_comment_authors'],foxtran,False,True,False,True,True
 Sakurakdx,1,['comment_authors'],sakurakdx,False,True,False,True,True
 ideasbyjin,1,['comment_authors'],ideasbyjin,False,True,False,True,True
-int3,245,"['comment_authors', 'author', 'review_comment_authors']",int3,False,False,False,False,False
+int3,245,"['author', 'comment_authors', 'review_comment_authors']",int3,False,False,False,False,False
 amitaga,3,"['comment_authors', 'review_comment_authors', 'author']",amitaga,False,False,False,False,False
 lonelyeagle,1,['author'],lonelyeagle,False,False,False,False,False
 gustavla,7,"['comment_authors', 'review_comment_authors', 'author']",gustavla,False,False,False,False,False
@@ -4715,7 +4715,7 @@ gaolexx,2,"['comment_authors', 'author']",gaolexx,False,False,False,False,False
 aviverma01,3,"['comment_authors', 'review_comment_authors', 'author']",aviverma01,False,False,False,False,False
 nitishkrish16,2,"['comment_authors', 'author']",nitishkrish16,False,False,False,False,False
 moi90,2,"['comment_authors', 'author']",moi90,False,False,False,False,False
-masnesral,73,"['comment_authors', 'author', 'review_comment_authors']",masnesral,False,False,False,False,False
+masnesral,73,"['author', 'comment_authors', 'review_comment_authors']",masnesral,False,False,False,False,False
 jmswen,3,"['comment_authors', 'review_comment_authors', 'author']",jmswen,False,False,False,False,False
 JamesTheZ,1,['comment_authors'],jamesthez,False,True,False,True,True
 malbergo,1,['comment_authors'],malbergo,False,True,False,True,True
@@ -4724,7 +4724,7 @@ ESI-SYD,3,"['comment_authors', 'review_comment_authors', 'author']",esi-syd,Fals
 Schefflera-Arboricola,4,"['comment_authors', 'author']",schefflera-arboricola,False,False,False,False,False
 kalekundert,4,"['comment_authors', 'review_comment_authors', 'author']",kalekundert,False,False,False,False,False
 Kronuz,5,"['review_comment_authors', 'author']",kronuz,False,False,False,False,False
-joshlk,11,"['comment_authors', 'author', 'review_comment_authors']",joshlk,False,False,False,False,False
+joshlk,11,"['author', 'comment_authors', 'review_comment_authors']",joshlk,False,False,False,False,False
 berserkr,1,['author'],berserkr,False,False,False,False,False
 InfiniteSwerve,2,"['comment_authors', 'author']",infiniteswerve,False,False,False,False,False
 LamForest,5,"['comment_authors', 'review_comment_authors', 'author']",lamforest,False,False,False,False,False
@@ -5001,7 +5001,7 @@ snabelkabiya,2,['author'],snabelkabiya,False,False,False,False,False
 redraven984,1,['author'],redraven984,False,False,False,False,False
 011218,1,['author'],011218,False,False,False,False,False
 Deusy94,5,"['comment_authors', 'author']",deusy94,False,False,False,False,False
-matthewhagraphcore,4,"['comment_authors', 'author', 'review_comment_authors']",matthewhagraphcore,False,False,False,False,False
+matthewhagraphcore,4,"['author', 'comment_authors', 'review_comment_authors']",matthewhagraphcore,False,False,False,False,False
 sindish,2,"['comment_authors', 'author']",sindish,False,False,False,False,False
 Lokiiiiii,2,['author'],lokiiiiii,False,False,False,False,False
 zejunh,3,"['comment_authors', 'author']",zejunh,False,False,False,False,False
@@ -5148,7 +5148,7 @@ ash-01xor,5,"['comment_authors', 'review_comment_authors', 'author']",ash-01xor,
 yangzorror,2,"['comment_authors', 'author']",yangzorror,False,False,False,False,False
 oraluben,12,"['comment_authors', 'review_comment_authors', 'author']",oraluben,False,False,False,False,False
 jq460494839,1,['comment_authors'],jq460494839,False,True,False,True,True
-wlei-llvm,4,"['comment_authors', 'author', 'review_comment_authors']",wlei-llvm,False,False,False,False,False
+wlei-llvm,4,"['author', 'comment_authors', 'review_comment_authors']",wlei-llvm,False,False,False,False,False
 zsol,1,['author'],zsol,False,False,False,False,False
 andrewlee302,30,"['comment_authors', 'review_comment_authors', 'author']",andrewlee302,False,False,False,False,False
 giaco5988,2,"['comment_authors', 'author']",giaco5988,False,False,False,False,False

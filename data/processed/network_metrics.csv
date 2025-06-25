@@ -1,0 +1,13 @@
+repository,phase,nodes,edges,avg_degree,density,clustering,largest_cc
+scikit-learn,pre,438,565,2.58,0.0059,0.1871,438
+scikit-learn,during,644,817,2.54,0.0039,0.1742,644
+scikit-learn,post,89,139,3.12,0.0355,0.32,89
+pytorch,pre,1124,1909,3.4,0.003,0.2782,1122
+pytorch,during,2919,5419,3.71,0.0013,0.3243,2917
+pytorch,post,942,1607,3.41,0.0036,0.3619,940
+kubernetes,pre,2460,7816,6.35,0.0026,0.372,2432
+kubernetes,during,2911,7732,5.31,0.0018,0.3612,2856
+kubernetes,post,609,1219,4.0,0.0066,0.3773,587
+apache-spark,pre,470,837,3.56,0.0076,0.2941,470
+apache-spark,during,665,945,2.84,0.0043,0.2375,665
+apache-spark,post,211,292,2.77,0.0132,0.2587,211
