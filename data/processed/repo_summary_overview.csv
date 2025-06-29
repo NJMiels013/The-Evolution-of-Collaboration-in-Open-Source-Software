@@ -1,5 +1,0 @@
-repository,total_prs,total_contributors,bots_detected,prs_pre,prs_during,prs_post,contributors_pre,contributors_during,contributors_post
-scikit-learn,10766,2810,445,3436,6211,1085,1144,1634,301
-pytorch,75414,13121,1121,18264,46773,10265,3096,8651,2800
-kubernetes,43416,28789,1706,19803,20341,3213,14113,15567,3665
-apache-spark,24387,2115,795,7229,13654,3475,956,1239,445
