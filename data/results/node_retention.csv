@@ -1,0 +1,9 @@
+repo,from_phase,to_phase,retention_rate
+scikit-learn,pre,during,0.23157894736842105
+scikit-learn,during,post,0.11450381679389313
+pytorch,pre,during,0.46518105849582175
+pytorch,during,post,0.26525529265255293
+kubernetes,pre,during,0.44568965517241377
+kubernetes,during,post,0.22097902097902097
+apache-spark,pre,during,0.313953488372093
+apache-spark,during,post,0.2524752475247525
