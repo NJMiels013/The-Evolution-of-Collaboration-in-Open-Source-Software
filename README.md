@@ -62,14 +62,6 @@ This study covers four well-known OSS repositories, each representing a differen
 
 ## Reproducibility
 
-To reproduce the analysis:
-
-```bash
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo
-pip install -r requirements.txt
-```
-
 All code for data retrieval, processing, network construction, and metric computation is located in the `scripts/ folder.
 
 ## Citation
