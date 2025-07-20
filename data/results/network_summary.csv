@@ -1,0 +1,13 @@
+Repository,Phase,Projected Nodes,Projected Edges
+scikit-learn,pre,95,138
+scikit-learn,during,131,189
+scikit-learn,post,35,52
+pytorch,pre,359,2498
+pytorch,during,803,8090
+pytorch,post,365,4539
+kubernetes,pre,1160,18491
+kubernetes,during,1430,18550
+kubernetes,post,423,4072
+apache-spark,pre,172,388
+apache-spark,during,202,338
+apache-spark,post,76,103

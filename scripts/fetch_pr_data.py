@@ -125,7 +125,7 @@ def convert_jsonl_to_csv(jsonl_path, csv_path):
 
 # --- MAIN ---
 if __name__ == "__main__":
-    repos = ["kubernetes/kubernetes"]
+    repos = ["kubernetes/kubernetes", "pytorch/pytorch", "apache/spark", "scikit-learn/scikit-learn"]
     for repo in repos:
         print(f"\n--- Processing repository: {repo} ---")
         jsonl_path, data_dir = fetch_all_pull_requests(repo)
