@@ -20,12 +20,12 @@ We apply social network analysis to model and compare developer interactions ove
 
 This study covers four well-known OSS repositories, each representing a different governance style:
 
-| Repository     | Governance Model     | Coordination Style      |
-|----------------|-----------------------|--------------------------|
-| Kubernetes     | Hierarchical (CNCF)   | Role-based              |
-| PyTorch        | Centralized (Meta AI) | Industry-driven         |
-| scikit-learn   | Community-based       | Consensus-oriented      |
-| Apache Spark   | Meritocratic (ASF)    | Role-evolved            |
+| Repository     | Governance Model     |
+|----------------|-----------------------|
+| Kubernetes     | Hierarchical (CNCF)   |
+| PyTorch        | Centralized (Meta AI) |
+| scikit-learn   | Community-based       |
+| Apache Spark   | Meritocratic (ASF)    |
 
 ## Research Questions
 
